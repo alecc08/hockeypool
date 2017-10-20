@@ -1,0 +1,106 @@
+@media only screen and (max-width: 575px) {
+
+   .table td, .table th {
+     padding: 2px;
+     font-size: 70%;
+   }
+   button.btn {
+     font-size: 0.75em;
+   }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .table td, .table th {
+    padding: 4px;
+    font-size: 80%;
+  }
+   button.btn {
+     font-size: 0.85em;
+   }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+  .table td, .table th {
+    padding: 8px;
+  }
+   button.btn {
+     font-size: 1em;
+   }
+
+}
+
+.header {
+  background-image:url("../images/hockey-wallpaper.jpg");
+  background-color: white;
+  background-position:center center;
+  background-repeat: no-repeat;
+}
+
+.chatTitle {
+  color: #0275d8;
+  font-size: 110%;
+}
+
+nav {
+  margin-top:-5px;
+}
+
+.inactive {
+  background-color: #eee;
+  opacity: 0.4;
+}
+
+.jumbotron {
+	text-align:center;
+}
+
+.logo {
+  width: 37px;
+  height: 25px;
+  box-shadow: 0 0 2px rgba(100,100,100,0.5);
+}
+
+.shadow {
+  box-shadow: 0 0 2px rgba(100,100,100,0.5);
+}
+
+.bigshadow {
+  box-shadow: 0px 0px 15px rgba(100,100,100,0.7);
+}
+
+.headerText {
+  text-shadow: 2px 2px 2px #111;
+  font-style: italic;
+  color: #EEE;
+}
+
+body > .container.main {
+	box-shadow: 0 0 40px rgba(100,100,100,0.5);
+
+}
+
+.push-down {
+	margin-top: 20px;
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 60%;
+  text-align: center;
+}
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.pool:hover {
+  background-color: #EEE;
+}
